@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CriticalSection">
+      <UniqueIdentifier>{778c935c-5aa3-4432-baa1-f668c7353e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConditionVariable">
+      <UniqueIdentifier>{5445d9f6-1409-4ae9-9d08-19fe802b98e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpinLock">
+      <UniqueIdentifier>{c305d0da-87a3-4e72-9cb3-2b62d23eac20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SyncBarrier">
+      <UniqueIdentifier>{5861c449-1362-485b-bdfc-03daf922a537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WaitOnAddr">
+      <UniqueIdentifier>{b47356c8-0ab6-4863-afd5-9c222f579231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InitOnce">
+      <UniqueIdentifier>{614d3a1b-48ff-44e7-bb72-dcef33f2d274}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CS_Account.cpp">
+      <Filter>CriticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticSectTest.cpp">
+      <Filter>CriticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCSLock.cpp">
+      <Filter>CriticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitableQueue2.cpp">
+      <Filter>CriticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="ReleaseCSTest.cpp">
+      <Filter>CriticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="SRWLockTest.cpp">
+      <Filter>CriticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="SRWExclusive.cpp">
+      <Filter>CriticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="SRWExclusive3.cpp">
+      <Filter>CriticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="CondVarCSImp.cpp">
+      <Filter>ConditionVariable</Filter>
+    </ClCompile>
+    <ClCompile Include="CondVarCSTest.cpp">
+      <Filter>ConditionVariable</Filter>
+    </ClCompile>
+    <ClCompile Include="SRWPerfTest.cpp">
+      <Filter>CriticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="CondVarSRWBad.cpp">
+      <Filter>ConditionVariable</Filter>
+    </ClCompile>
+    <ClCompile Include="CondVarSRWTest.cpp">
+      <Filter>ConditionVariable</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinLockTest.cpp">
+      <Filter>SpinLock</Filter>
+    </ClCompile>
+    <ClCompile Include="SpinLockImpl.cpp">
+      <Filter>SpinLock</Filter>
+    </ClCompile>
+    <ClCompile Include="SynchBarrier.cpp">
+      <Filter>SyncBarrier</Filter>
+    </ClCompile>
+    <ClCompile Include="SynchBarSRW.cpp">
+      <Filter>SyncBarrier</Filter>
+    </ClCompile>
+    <ClCompile Include="SynchBarNoti.cpp">
+      <Filter>SyncBarrier</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitAddr.cpp">
+      <Filter>WaitOnAddr</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitAddrLock.cpp">
+      <Filter>WaitOnAddr</Filter>
+    </ClCompile>
+    <ClCompile Include="EchoServer.cpp">
+      <Filter>WaitOnAddr</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitAddrSema.cpp">
+      <Filter>WaitOnAddr</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitAddrRWSingle.cpp">
+      <Filter>WaitOnAddr</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitAddrRWMulti.cpp">
+      <Filter>WaitOnAddr</Filter>
+    </ClCompile>
+    <ClCompile Include="InitOnceSync.cpp">
+      <Filter>InitOnce</Filter>
+    </ClCompile>
+    <ClCompile Include="빈소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InitOnceImpl.cpp">
+      <Filter>InitOnce</Filter>
+    </ClCompile>
+    <ClCompile Include="InitOnceAsync.cpp">
+      <Filter>InitOnce</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
